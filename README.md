@@ -1,7 +1,7 @@
-# Credit_Risk_Analysis
+# Credit Risk Analysis
 
 ## Overview of the loan prediction risk analysis: 
--  The business of predicting which loans will perform during the duration of the terms and which ones will be non-performers is a key area of interest to those in the banking industry. Afterall, a performing loan is a profitable venture, while a non-performing loan is not.  In order to try to create a predictive model, we created Machine Learning predictive models utilizing **over-sampling** (naive-random over-sampling & SMOTE), **under-sampling** (Cluster centroids), as well as the ensemble methods **Balanced Random Forest Classifier** (which uses bagging) and finally **Easy Ensemble Adaboost Classifier** (which uses boosting).  Trying out multiple models and methods allowed us to compare their predictive results head to head, with their respective balanced accuracy scores, predictive and recall scores as our tools of comparison.
+-  The business of predicting which loans will perform during the duration of the terms and which ones will be non-performers is a key area of interest to those in the banking industry. Afterall, a performing loan is a profitable venture, while a non-performing loan is not.  In order to try to create a predictive model that looks to forecast loan health, we created (6) Machine Learning predictive models utilizing **over-sampling** (naive-random over-sampling & SMOTE), **under-sampling** (Cluster centroids), as well as the ensemble methods **Balanced Random Forest Classifier** (which uses bagging) and finally **Easy Ensemble Adaboost Classifier** (which uses boosting).  Trying out multiple models and methods allowed us to compare their predictive results head to head, with their respective balanced accuracy scores, predictive and recall scores as our tools of comparison.
 
 
 
@@ -18,7 +18,11 @@ Above is a table that shows all the respective scores for the 6 different models
 
 - The combination method- SMOTEENN, performed next best, beating out Cluster Centroids to avoid last place.
 
-- The model that performed the worst across the board was the Cluster Centroids, with both the lowest **recall** score, at .41, andlowest **accuracy** score, at .547
+- The model that performed the worst across the board was the Cluster Centroids, with both the lowest **recall** score, at .41, and lowest **accuracy** score, at .547.
+
+
+
+
 
 ![alt_text](https://github.com/Nickguild1993/Credit_Risk_Analysis/blob/main/forest__top5_importance.png) 
 
